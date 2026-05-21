@@ -1,10 +1,10 @@
 
-window.addEventListener('scroll', function(){
-const navbar = document.querySelector('.navbar');
+window.addEventListener('scroll', () => {
+  const nav = document.querySelector('.navbar');
 
-if(window.scrollY > 50){
-navbar.style.boxShadow = '0 8px 30px rgba(0,0,0,0.08)';
-}else{
-navbar.style.boxShadow = 'none';
-}
+  if(window.scrollY > 50){
+    nav.style.boxShadow = '0 10px 30px rgba(0,0,0,0.06)';
+  } else {
+    nav.style.boxShadow = 'none';
+  }
 });
